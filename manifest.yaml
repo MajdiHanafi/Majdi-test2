@@ -2,14 +2,15 @@ kind: AIchorManifest
 apiVersion: 0.2.2
 
 builder:
-  immage: image
+  image: image
   dockerfile: ./build/ray.Dockerfile
   context: .
 
 spec:
   operator: kuberay
   image: image
-  command: "python3 -u main.py --operator=kuberay --sleep=1800 --tb-write=True"              
+  comm
+  and: "python3 -u main.py --operator=kuberay --sleep=1800 --tb-write=True"              
   activeDeadlineSeconds: 1600
   debug:
     jupyter: false
