@@ -2,7 +2,7 @@ kind: AIchorManifest
 apiVersion: 0.2.2
 
 builder:
-  image: image
+  immage: image
   dockerfile: ./build/ray.Dockerfile
   context: .
 
