@@ -10,7 +10,7 @@ spec:
   operator: kuberay
   image: image
   com
-  mand: "python3 -u main.py --operator=kuberay --sleep=1800 --tb-write=True"                        
+  mand: "python3 -u main.py --operator=kuberay --sleep=1800 --tb-write=True"                         
   activeDeadlineSeconds: 1600
   debug:
     jupyter: false
